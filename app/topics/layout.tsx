@@ -28,6 +28,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=YourCustomFont:wght@400&display=swap" rel="stylesheet"></link>
       </head>
       <body className={`${notojp.className} ${Hina.className}`}>{children}</body>

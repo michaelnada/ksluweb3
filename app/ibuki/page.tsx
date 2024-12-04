@@ -38,7 +38,7 @@ export default function Home() {
       <div className="px-[10px]">
       <div className="w-[100%] text-white text-center">
         <a className="underline">関西学生文芸連合TOP</a>
-          　>>　『息吹』
+        　`&gt;``&gt;`　『息吹』
       </div>
       <div className=" text-3xl md:text-4xl my-2 md:my-5  text-white px-4 py-3">
           『息吹』

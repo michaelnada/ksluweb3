@@ -5,6 +5,7 @@ export default function Home() {
   
 
   return (
+    // 記事だけじゃなくて写真も欲しいが……　そのための右開けがあります（スマホ版ならPHOTOは下）
     <main className="font-body bg-black min-h-screen">
       <nav className="py-[20px] px-[20px] flex w-[100%] justify-between bg-gradient-to-r from-blue-200 to-white">
         <div className="flex flex-col relative sm:border-r-4 sm:w-[250px] border-white ">
@@ -38,14 +39,14 @@ export default function Home() {
       <div className="px-[10px]">
       <div className="w-[100%] text-white text-center">
         <a href="." className="underline">関西学生文芸連合TOP</a>
-          　>>　『About Us』
+        　&gt;&gt;　『About Us』
       </div>
       <div className=" text-3xl md:text-4xl my-2 md:my-5  text-white px-4 py-3">
           About Us
       </div>
       <div className="px-[20px] h-max">
         
-        <div className="text-white text-lg px-[30px]">
+        <div className="text-white text-xl line-height-9 px-[30px] lg:w-[60%]">
           <p>
         関西学生文芸連合（通称：関文連）は、主に関西在住の文芸に興味がある中高生の団体で、現在のメンバーは約70人です。前身は2017年に設立した「関西文芸部連合」であり、メンバーも少数でしたが、部活動単位では参加できない生徒も多くいたため、2018年に個人単位でも参加できるようにし、「関西学生文芸連合」と改称しました。コロナ禍で一時期活動が途切れていましたが、2022年に再興し、現在に至っています。 会員の中には文芸以外にも本や芸術、はたまた科学など、色んな分野に興味がある中高生がおり、各々の視野を広げるきっかけにもなっています。
         関西学生文芸連合の主な活動は以下の通りです。

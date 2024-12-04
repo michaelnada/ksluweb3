@@ -129,8 +129,9 @@ export default function Home() {
           </div>
           {/* お知らせの記事が入る */}
           <div className="flex overflow-x-auto sm:space-x-[30px] md:space-x-[40px] lg:space-x-[50px] px-[20px]">
-            {/* 息吹9 現在リンク先無し */}
-            <div className="rounded-md w-[300px] h-[300px] flex-shrink-0 border-4">
+            {/* 息吹9 現在リンク先無し 枠線だけ色を変える*/}
+            <div className="rounded-md w-[200px] lg:w-[300px]  flex-shrink-0 border-4 
+            transition hover:border-amber-100">
               <a>
                 <img src="/images/関文連digitalロゴ.png" className="rounded-md"></img>
                 <div className="text-3xl">
@@ -140,25 +141,27 @@ export default function Home() {
               </a>
             </div>
             {/* 俳バト　PDFへ */}
-            <div className="rounded-md w-[300px] h-[300px] flex-shrink-0 border-4">
+            <div className="rounded-md w-[200px] lg:w-[300px]  flex-shrink-0 border-4
+            transition hover:border-amber-100">
               <a href="https://kansai-student-literary-union.github.io/kslu/khb2025/pdf/khb2025about.pdf" target="_blank" rel="noopener noreferrer">
                 <img src="/images/khb2024_last.png" className="w-[100%] rounded-md"></img>
                 
                 <div className="text-3xl">
                   関西俳句バトル2025開催要項
                 </div>
-                <div>2024年10月20日</div>
+                <div>2024年10月20日 pdf</div>
               </a>
             </div>
             {/* 俳バト一般観戦フォーム　フォームへ */}
-            <div className="rounded-md w-[300px] h-[300px] flex-shrink-0 border-4">
+            <div className="rounded-md w-[200px] lg:w-[300px]  flex-shrink-0 border-4
+            transition hover:border-amber-100">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdd9Vdf2Egzto9gAN1xHqWAiiIddsDpPUSWh3Zg6bDm0CXciw/viewform" target="_blank" rel="noopener noreferrer">
                 <img src="/images/khb2024_last.png" className="w-[100%] rounded-md"></img>
                 
                 <div className="text-3xl">
                   俳バト一般来場者申し込みフォーム
                 </div>
-                <div>2024年10月20日</div>
+                <div>2024年10月20日 google form</div>
               </a>
             </div>
           </div>
